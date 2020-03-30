@@ -1,0 +1,121 @@
+html {
+  font-family: Tahoma, Georgia, sans-serif;
+}
+
+body {
+  font-size: 12px;
+  background-color:white;
+}
+
+.education h1, .certifications, .skills {
+  margin-top: 40px;
+}
+
+.header-grid {
+  display: grid;
+      grid-template-columns: 80% 20%;
+      grid-template-rows: 120px;
+}
+
+.header-grid i {
+  padding: 10px 10px 10px 10px;
+  margin-top: 35px;
+  font-size: 20px;
+  color: #0d0d0d;
+}
+
+header {
+  background-color: #f2f2f2;
+}
+
+header h1 {
+  font-size: 15px;
+  margin-top: 35px;
+}
+
+hr {
+  width: 100%;
+}
+
+.header {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.certifications-container {
+  display: grid;
+      grid-template-columns: 80% 20%;
+      grid-template-rows: 50px 30px 30px 30px;
+}
+
+.colum1-certifications h2, .colum1-skills h2, .jobs-container h2 {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+.colum2-certifications p , .colum1-skills li{
+  margin: 10px 20px;
+}
+
+.skills-container {
+  display: grid;
+      grid-template-columns: 20% 80%;
+      grid-template-rows: 50px 40px 40px 40px 40px;
+      line-height: 1.5rem;
+}
+
+
+.work-experience {
+  display: grid;
+      grid-template-columns: 80% 20%;
+      grid-template-rows: 40px 30px  30px 30px;
+      column-gap: 40px;
+}
+
+.work-experience p {
+  font-style: italic
+}
+
+.job-colum1{
+  line-height: 1.5rem;
+   margin: 20px 18px}
+
+
+.work-experience u{
+  text-decoration: none;
+}
+
+.job2 aside{ 
+  float: right;}
+  .job2 aside
+
+.job1 aside{ text-align: center;}
+
+/**********************************************
+***********************************************
+7. Media Queries  
+***********************************************
+***********************************************/
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 740px) {
+  body {
+    font-size: 15px;
+  }
+  header h1 {
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  .certifications-container h1 {
+    font-size: 20px;
+  }
+  .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2{
+    font-size: 15px;
+  }
+   
+/*# sourceMappingURL=resume-style.css.map */
