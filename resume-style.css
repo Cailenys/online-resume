@@ -49,11 +49,11 @@ hr {
 
 .certifications-container {
   display: grid;
-      grid-template-columns: 80% 20%;
+      grid-template-columns: 45% 55%;
       grid-template-rows: 50px 30px 30px 30px;
 }
 
-.colum1-certifications h2, .colum1-skills h2, .jobs-container h2 {
+.colum1-certifications h2, .colum1-skills h2, .jobs-container h2, .volunteer-work h2 {
   font-weight: bold;
   font-size: 12px;
 }
@@ -68,34 +68,35 @@ hr {
       grid-template-columns: 20% 80%;
       grid-template-rows: 50px 40px 40px 40px 40px;
       line-height: 1.5rem;
+      letter-spacing:0.6px;
 }
 
 
-.work-experience {
+/*.work-experience {
   display: grid;
-      grid-template-columns: 80% 20%;
+      grid-template-columns: 100%;
       grid-template-rows: 40px 30px  30px 30px;
       column-gap: 40px;
+}*/
+
+.work-experience p, .achievement p, .volunteer-work p{
+  font-style: italic;
+  letter-spacing:0.6px;
 }
 
-.work-experience p {
-  font-style: italic
-}
-
-.job-colum1{
-  line-height: 1.5rem;
-   margin: 20px 18px}
 
 
-.work-experience u{
+
+u{
   text-decoration: none;
+  letter-spacing:0.6px;
 }
 
-.job2 aside{ 
-  float: right;}
-  .job2 aside
-
-.job1 aside{ text-align: center;}
+.work-experience, .volunteer-work{ margin-left:20px ;}
+.work-experience aside, .volunteer-work aside { float: right;}
+.work-experience-job4 p  {margin-bottom: 30px;}
+.achievement p { font-size: 13px;}
+.achievement {margin-bottom:30px ;}
 
 /**********************************************
 ***********************************************
@@ -114,7 +115,7 @@ hr {
   .certifications-container h1 {
     font-size: 20px;
   }
-  .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2{
+  .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
     font-size: 15px;
   }
    
