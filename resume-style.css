@@ -97,7 +97,7 @@ u{
 .work-experience li, .volunteer-work li{ margin-left:20px ;}
 
 .work-experience-job4 p  {margin-bottom: 30px;}
-.achievement p { font-size: 12px;}
+.achievement p, aside p { font-size: 12px;}
 .achievement {margin-bottom:30px ;}
 .skills aside h2, .work-experience h2 { font-size: 12px;}
 
@@ -122,10 +122,10 @@ u{
     font-size: 30px;
     margin-left: 40px;
   }
-  .certifications-container h1 {
+  .certifications-container h1, .volunteer-work h1 {
     font-size: 20px;
   }
-  .achievement p, .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
+  .achievement p,aside p , .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
     font-size: 15px;
   }
 
