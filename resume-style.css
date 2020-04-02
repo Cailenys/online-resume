@@ -7,6 +7,7 @@ body {
   font-size: 12px;
   background-color:white;
 }
+.achievement p {font-weight: normal;}
 
 .education h1, .certifications h1, .skills h1, .work-experience h1 {
   font-size: 15px;
@@ -82,8 +83,7 @@ hr {
       column-gap: 40px;
 }*/
 
-.work-experience p, .achievement p, .volunteer-work p{
-  font-style: italic;
+.work-experience p, .volunteer-work p{
   letter-spacing:0.6px;
 }
 
@@ -125,7 +125,7 @@ u{
   .certifications-container h1 {
     font-size: 20px;
   }
-  .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
+  .achievement p, .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
     font-size: 15px;
   }
 
@@ -163,4 +163,3 @@ u{
  
  .work-experience aside, .volunteer-work aside { float: right;}
 }
-/*# sourceMappingURL=resume-style.css.map */
