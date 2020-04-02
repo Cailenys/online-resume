@@ -17,7 +17,8 @@ body {
 .header-grid {
   display: grid;
   grid-template-columns: 65% 35%;
-    grid-template-rows: 120px;
+  grid-template-rows: 120px;
+  background:cover ;
 }
 
 .header-grid i {
@@ -25,7 +26,7 @@ body {
   font-size: 15px;
   color: #0d0d0d;
 }
-
+header aside {float: right;}
 
 header h1 {
   font-size: 20px;
@@ -33,61 +34,33 @@ header h1 {
   margin-left: 6px;
 }
 
-hr {
-  width: 100%;
-}
 
 .header {
   background-color: #f2f2f2;
-  margin-right: 8px;
+ width: 100%;
 }
 
 .content {
   margin-left: 10px;
   margin-right: 10px;
 }
-/* 
-.certifications-container {
-  display: grid;
-      grid-template-columns: 80% 20%;
-      grid-template-rows: 50px 30px 30px 30px;
- }*/
 
-.colum1-certifications h2, .colum1-skills h2, .jobs-container h2, .volunteer-work h2 {
+
+
+.row-certifications h2, .colum1-skills h2, .jobs-container h2, .volunteer-work h2 {
   font-weight: bold;
   font-size: 12px;
 }
 
 
-/*.colum2-certifications p , .colum1-skills li{
-  margin: 10px 20px;
-}
-
-/*.skills-container {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-rows: 30px 20px 20px 20px 20px;
-    line-height: 1.5rem;
-    letter-spacing:0.6px;
-}
-
-.skills-container li{ text-decoration: none;}
-
-/*.work-experience {
-  display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 40px 30px  30px 30px;
-      column-gap: 40px;
-}*/
-
-.work-experience p, .volunteer-work p{
+/*.work-experience p, .volunteer-work p{
   letter-spacing:0.6px;
-}
+}*/
 
 
 u{
   text-decoration: none;
-  letter-spacing:0.6px;
+  /*letter-spacing:0.6px;*/
   line-height: 1.5rem;
 }
 .work-experience h1, .volunteer-work h1{ font-size: 15px;}
@@ -100,39 +73,48 @@ u{
 
 /**********************************************
 ***********************************************
-7. Media Queries  
+ Media Queries  
 ***********************************************
 ***********************************************/
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 740px) {
+ 
  
   body {
     font-size: 15px;
   }
+
+.certifications-container {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 30px 30px 30px 30px;
+ }
 
   .content {
     margin-left: 50px;
     margin-right: 50px;
   } 
 
-  .header{ margin: 0;}
-
+  
+  
   header h1 {
     font-size: 30px;
     margin-left: 50px;
   }
-  .certifications-container h1, .volunteer-work h1 {
+  .certifications h1, .volunteer-work h1 {
     font-size: 20px;
   }
-  .achievement p,aside p , .colum1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
+  .achievement p,aside p , .row1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
     font-size: 15px;
   }
 
-
-  .education h1, .certifications h1, .skills h1, .work-experience h1 {
+  .education h1, .row-certifications h1, .skills h1, .work-experience h1 {
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
+
+  
   .header-grid i {
      float: right;
      padding: 10px 50px 10px 10px;
@@ -141,24 +123,14 @@ u{
      font-size: 20px;
  
 }
-  // .certifications-container {
-  // display: grid;
-  // grid-template-columns: 45% 55%;
-  // grid-template-rows: 50px 30px 30px 30px;
-//  }
 
- /*.skills-container {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 50px 40px 40px 40px 40px;
-  line-height: 1.5rem;
-  letter-spacing:0.6px;
- }*/
-
+  
+.row-certifications h2 {line-height: 1.5;}
  .skills aside{ /*float: left;*/
   margin-right:20px ;}
 
  .skills aside h2{ font-size: 15px;}
- .volunteer-work {margin-top: 40px;}
-  .work-experience aside, .volunteer-work aside { float: right;}
+ .volunteer-work {margin-top: 30px;
+margin-bottom: 30px;}
+ .work-experience aside, .volunteer-work aside { float: right;}
 }
