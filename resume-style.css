@@ -7,18 +7,27 @@ body {
   font-size: 12px;
   background-color:white;
 }
-.achievement p {font-weight: normal;}
+
+.achievement p {
+  font-weight: normal;}
+
+
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+  }
 
 .education h1, .certifications h1, .skills h1, .work-experience h1 {
   font-size: 15px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
+
+.education, .certifications, .skills , .work-experience{ margin-bottom: 30px;}
 
 .header-grid {
   display: grid;
   grid-template-columns: 65% 35%;
   grid-template-rows: 120px;
-  background:cover ;
 }
 
 .header-grid i {
@@ -40,36 +49,17 @@ header h1 {
  width: 100%;
 }
 
-.content {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
-
-
-.row-certifications h2, .colum1-skills h2, .jobs-container h2, .volunteer-work h2 {
-  font-weight: bold;
+ul{
   font-size: 12px;
-}
-
-
-/*.work-experience p, .volunteer-work p{
-  letter-spacing:0.6px;
-}*/
-
-
-u{
+  font-weight: normal;
   text-decoration: none;
-  /*letter-spacing:0.6px;*/
-  line-height: 1.5rem;
+   line-height: 1.5rem;
 }
 .work-experience h1, .volunteer-work h1{ font-size: 15px;}
-.work-experience li, .volunteer-work li{ margin-left:20px ;}
 
-.work-experience-job4 p  {margin-bottom: 30px;}
-.achievement p, aside p { font-size: 12px;}
-.achievement {margin-bottom:30px ;}
-.skills aside h2, .work-experience h2 { font-size: 12px;}
+
+.skills aside h2 { font-size: 12px;}
 
 /**********************************************
 ***********************************************
@@ -85,11 +75,13 @@ u{
     font-size: 15px;
   }
 
-.certifications-container {
+  aside p { font-size: 15px;}
+
+  .certifications-container {
       display: grid;
       grid-template-columns: 100%;
       grid-template-rows: 30px 30px 30px 30px;
- }
+  }
 
   .content {
     margin-left: 50px;
@@ -102,35 +94,41 @@ u{
     font-size: 30px;
     margin-left: 50px;
   }
-  .certifications h1, .volunteer-work h1 {
-    font-size: 20px;
-  }
-  .achievement p,aside p , .row1-certifications h2, .colum1-skills h2, .work-experience h3, .work-experience h2, .volunteer-work h2, .ahievement p{
+  .certifications h1, .volunteer-work h1, .content h3 {
     font-size: 15px;
   }
+  
 
   .education h1, .row-certifications h1, .skills h1, .work-experience h1 {
-    font-size: 20px;
     margin-top: 30px;
   }
 
   
   .header-grid i {
-     float: right;
-     padding: 10px 50px 10px 10px;
-     letter-spacing: 10px;
-     margin-top: 35px;
-     font-size: 20px;
- 
+    float: right;
+    padding: 10px 50px 10px 10px;
+    letter-spacing: 10px;
+    margin-top: 35px;
+    font-size: 20px;
 }
-
   
-.row-certifications h2 {line-height: 1.5;}
- .skills aside{ /*float: left;*/
-  margin-right:20px ;}
+ .row-certifications h2 {
+   font-size: 12px;
+   line-height: 1.5;}
+ .skills aside{ 
+    margin-right:20px ;}
 
  .skills aside h2{ font-size: 15px;}
- .volunteer-work {margin-top: 30px;
-margin-bottom: 30px;}
+
+ ul{
+  font-size: 15px;
+ 
+}
+ .volunteer-work {
+   margin-top: 30px;
+   margin-bottom: 30px;}
+
+  .work-experience h2 {font-size: 20px;}
  .work-experience aside, .volunteer-work aside { float: right;}
+
 }
