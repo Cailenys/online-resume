@@ -160,6 +160,6 @@ u{
   margin-right:20px ;}
 
  .skills aside h2{ font-size: 15px;}
- 
- .work-experience aside, .volunteer-work aside { float: right;}
+ .volunteer-work {margin-top: 40px;}
+  .work-experience aside, .volunteer-work aside { float: right;}
 }
