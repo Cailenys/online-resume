@@ -1,5 +1,6 @@
 html {
-  font-family: 'Montserrat', Tahoma, Georgia, sans-serif;
+  font-family:  Tahoma, Georgia, sans-serif;
+  font-weight: 300;
 
 }
 
@@ -8,21 +9,27 @@ body {
   background-color:white;
 }
 
-.achievement p {
-  font-weight: normal;}
+.achievement{
+margin-bottom: 30px;
+}
 
+.achievement p {
+  font-weight: normal;
+  line-height: 1.5rem;
+}
 
 .content {
   margin-left: 20px;
   margin-right: 20px;
   }
 
-.education h1, .certifications h1, .skills h1, .work-experience h1 {
-  font-size: 15px;
-  margin-top: 30px;
-}
+.content h1{ font-size: 15px;}
+.content h2{ font-size: 12px;}
 
-.education, .certifications, .skills , .work-experience{ margin-bottom: 30px;}
+.education, .certifications, .skills , .work-experience{
+   margin-bottom: 30px;
+   line-height: 1.5rem;
+  }
 
 .header-grid {
   display: grid;
@@ -35,7 +42,7 @@ body {
   font-size: 15px;
   color: #0d0d0d;
 }
-header aside {float: right;}
+.date {float: right;}
 
 header h1 {
   font-size: 20px;
@@ -46,7 +53,7 @@ header h1 {
 
 .header {
   background-color: #f2f2f2;
- width: 100%;
+  width: 100%;
 }
 
 
@@ -75,8 +82,6 @@ ul{
     font-size: 15px;
   }
 
-  aside p { font-size: 15px;}
-
   .certifications-container {
       display: grid;
       grid-template-columns: 100%;
@@ -87,21 +92,21 @@ ul{
     margin-left: 50px;
     margin-right: 50px;
   } 
-
+  .content h1  {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .content h2, .content h3 {
+    font-size: 15px;
+  }
   
   
   header h1 {
     font-size: 30px;
     margin-left: 50px;
   }
-  .certifications h1, .volunteer-work h1, .content h3 {
-    font-size: 15px;
-  }
   
-
-  .education h1, .row-certifications h1, .skills h1, .work-experience h1 {
-    margin-top: 30px;
-  }
+ 
 
   
   .header-grid i {
@@ -128,7 +133,7 @@ ul{
    margin-top: 30px;
    margin-bottom: 30px;}
 
-  .work-experience h2 {font-size: 20px;}
+ 
  .work-experience aside, .volunteer-work aside { float: right;}
 
 }
