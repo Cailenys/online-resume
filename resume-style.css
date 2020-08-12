@@ -25,10 +25,16 @@ margin-bottom: 30px;
 
 .content h1{ font-size: 15px;}
 .content h2{ font-size: 12px;}
-
-.education, .certifications, .skills , .work-experience{
+.date{
+  margin-left: 60px;
+}
+.education, .skills , .work-experience{
    margin-bottom: 30px;
    line-height: 1.5rem;
+  }
+
+  .certifications{
+    line-height: 1rem;
   }
 
 .header-grid {
@@ -47,7 +53,7 @@ margin-bottom: 30px;
 header h1 {
   font-size: 20px;
   margin-top: 38px;
-  margin-left: 6px;
+  margin-left: 18px;
 }
 
 
@@ -61,13 +67,16 @@ ul{
   font-size: 12px;
   font-weight: normal;
   text-decoration: none;
-   line-height: 1.5rem;
+  line-height: 1.5rem;
 }
 .work-experience h1, .volunteer-work h1{ font-size: 15px;}
 
 
-.skills aside h2 { font-size: 12px;}
-
+.skills h2 { padding-top:2px;
+ }
+.summary, .certifications{
+  margin-bottom: 2rem;
+}
 /**********************************************
 ***********************************************
  Media Queries  
