@@ -18,16 +18,19 @@ margin-bottom: 30px;
   line-height: 1.5rem;
 }
 
-.content, header h1 {
+.content, header h1, .icons {
   margin-left: 20px;
   margin-right: 20px;
   }
 
 .content h1{ font-size: 15px;}
 .content h2{ font-size: 12px;}
+
 .date{
   margin-left: 60px;
+  float: right;
 }
+
 .education, .skills , .work-experience{
    margin-bottom: 30px;
    line-height: 1.5rem;
@@ -54,7 +57,10 @@ header h1 {
   font-size: 15px;
   color: #0d0d0d;
 }
-.date {float: right;}
+.icons{
+  margin-left: -1rem;
+}
+
 
 .institute{
 margin-left: 4rem;
@@ -114,7 +120,7 @@ ul{
     font-size: 15px;
   }
   
-  .edu{
+  .edu {
     margin-left: 2rem;
   }
   
@@ -132,6 +138,9 @@ ul{
     font-size: 20px;
 }
   
+.icons{
+  margin-right: 6rem;
+}
  .row-certifications h2 {
    font-size: 12px;
    line-height: 1.5;}
