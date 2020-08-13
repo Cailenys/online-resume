@@ -18,7 +18,7 @@ margin-bottom: 30px;
   line-height: 1.5rem;
 }
 
-.content {
+.content, header h1 {
   margin-left: 20px;
   margin-right: 20px;
   }
@@ -37,6 +37,12 @@ margin-bottom: 30px;
     line-height: 1rem;
   }
 
+header h1 {
+  font-size: 20px;
+  margin-top: 38px;
+  margin-left: 18px;
+}
+  
 .header-grid {
   display: grid;
   grid-template-columns: 65% 35%;
@@ -50,11 +56,10 @@ margin-bottom: 30px;
 }
 .date {float: right;}
 
-header h1 {
-  font-size: 20px;
-  margin-top: 38px;
-  margin-left: 18px;
+.institute{
+margin-left: 4rem;
 }
+
 
 
 .header {
@@ -97,9 +102,9 @@ ul{
       grid-template-rows: 30px 30px 30px 30px;
   }
 
-  .content {
-    margin-left: 50px;
-    margin-right: 50px;
+  .content, .header h1{
+    margin-left: 10rem;
+    margin-right: 10rem;
   } 
   .content h1  {
     font-size: 20px;
@@ -109,15 +114,16 @@ ul{
     font-size: 15px;
   }
   
+  .edu{
+    margin-left: 2rem;
+  }
   
   header h1 {
     font-size: 30px;
     margin-left: 50px;
   }
   
- 
-
-  
+   
   .header-grid i {
     float: right;
     padding: 10px 50px 10px 10px;
@@ -129,8 +135,7 @@ ul{
  .row-certifications h2 {
    font-size: 12px;
    line-height: 1.5;}
- .skills aside{ 
-    margin-right:20px ;}
+
 
  .skills aside h2{ font-size: 15px;}
 
@@ -143,6 +148,6 @@ ul{
    margin-bottom: 30px;}
 
  
- .work-experience aside, .volunteer-work aside { float: right;}
+  aside { float: right;}
 
 }
